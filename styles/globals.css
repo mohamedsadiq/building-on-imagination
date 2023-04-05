@@ -114,6 +114,7 @@ a {
 
 .inner_card{
   text-align: center;
+  padding: 40px 0;
 }
 .inner_card_what h2{
   font-size: 1.8rem;
