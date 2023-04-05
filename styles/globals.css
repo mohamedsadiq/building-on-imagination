@@ -119,6 +119,7 @@ a {
   font-size: 1.8rem;
   margin-bottom: 10px;
   width: 393px;
+  font-weight: 700;
 }
 .inner_card_what p{
   font-size: 1rem;
@@ -135,6 +136,18 @@ a {
 }
 
 @media (max-width: 454px) {
+
+  .inner_card_what p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #c1c1c1;
+    width: 248px;
+    margin: 0 auto;
+    margin-bottom: 17px;
+  }
+}
+
+@media (max-width: 424px) {
 
   .inner_card_what p {
     font-size: 0.9rem;
