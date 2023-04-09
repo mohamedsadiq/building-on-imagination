@@ -6,6 +6,10 @@ import Form from "../pages/components/form.js"
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const testing = () => {
+    console.log('API Key:', process.env.NEXT_PUBLIC_GOOGLE_API_KEY);
+
+  }
   return (
     <>
       <Head>
@@ -15,9 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.description}>
-          
-          <div>
+        <div className={styles.description}><div>
           
           </div>
         </div>
@@ -25,9 +27,10 @@ export default function Home() {
         <div className={styles.center}>
           <div className={styles.thirteen}>
            <div className='inner_card inner_card_what'>
+            <test onClick={() => testing()}>test</test>
               <h2 className={inter.className}>What is Building On Imagination?</h2>
                 <p className={inter.className}>Learn more about the project and idea behind it.</p>
-                <a target="_blink" href='https://boimagination.substack.com/p/building-on-imagination' className={inter.className}>Read more</a>
+                <a target="_blink" href='https://www.mohamedsadiq.me/blog/building-on-imagination' className={inter.className}>Read more</a>
            </div>
           </div>
           <div className={ `${styles.thirteen} ${styles.thirteen_form}`}>

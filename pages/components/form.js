@@ -47,7 +47,7 @@ export default function Simple() {
             setState('submitting');
           
             try {
-              const response = await fetch('/api/subscribe', {
+              const response = await fetch('/api/sheets', {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
@@ -104,7 +104,7 @@ export default function Simple() {
               w="100%"
               type={state === 'success' ? 'button' : 'submit'}
             >
-              {state === 'success' ? <CheckIcon /> : 'Submit'}
+              {state === 'success' ? "✅" : 'Submit'}
             </Button>
           </FormControl>
         </Stack>
