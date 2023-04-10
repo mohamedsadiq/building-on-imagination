@@ -7,18 +7,18 @@ const subscribeHandler = async (req, res) => {
     const { email } = req.body;
 
     const transporter = nodemailer.createTransport({
-      host: 'smtp.office365.com', // Replace with your SMTP server
+      host: '', // Replace with your SMTP server
       port: 587, // Replace with your SMTP server port
       secure: false,
       auth: {
-        user: 'mohamed.sadiq@outlook.sa', // Replace with your email address
-        pass: 'Vba8VX%ja^YyY*h7IYIQUjEI3d6qMv#hZD6fqMg&%pEsGUV*iJcc$^CUfDTT7ErhOu', // Replace with your email password
+        user: '', // Replace with your email address
+        pass: '', // Replace with your email password
       },
     });
 
     const mailOptions = {
-      from: 'mohamed.sadiq@outlook.sa', // Replace with your email address
-      to: 'mohamed.sadiq@outlook.sa',
+      from: '', // Replace with your email address
+      to: '',
       subject: 'New Newsletter Subscription',
       text: `A new user has subscribed to the newsletter: ${email}`,
     };
