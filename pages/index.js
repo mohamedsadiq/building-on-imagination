@@ -27,7 +27,7 @@ export default function Home() {
         <div className={styles.center}>
           <div className={styles.thirteen}>
            <div className='inner_card inner_card_what'>
-            <test onClick={() => testing()}>test</test>
+           
               <h2 className={inter.className}>What is Building On Imagination?</h2>
                 <p className={inter.className}>Learn more about the project and idea behind it.</p>
                 <a target="_blink" href='https://www.mohamedsadiq.me/blog/building-on-imagination' className={inter.className}>Read more</a>
