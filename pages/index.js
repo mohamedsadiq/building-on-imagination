@@ -65,6 +65,7 @@ and Learn about DAOs</p>
                 src={daofm}
                  alt="dao fm" 
                  layout="fill"
+                 className='removeFilter'
                  objectFit="cover"
                  quality={100}
                 /> 

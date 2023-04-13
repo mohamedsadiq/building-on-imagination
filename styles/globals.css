@@ -204,6 +204,10 @@ margin: 0;
     
 }
 
+.project__image .removeFilter{
+  filter: none;
+}
+
 @media (max-width: 596px) {
   .project{
     display: block;

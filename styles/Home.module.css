@@ -343,5 +343,16 @@ color: #ababab;
   }
 }
 
+@media (max-width: 423px) {
 
+  
+  .center::after {
+    content: '';
+    left: 0%;
+    position: absolute;
+    filter: blur(45px);
+    transform: translateZ(0);
+  }
+  
+}
 
