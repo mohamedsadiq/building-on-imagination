@@ -80,7 +80,7 @@ export default function Home() {
         <a className='me' href='https://github.com/mohamedsadiq' target='_blink'>Github</a>
         <a className='me' href='https://www.producthunt.com/@m_bronz0' target='_blink'>Product Hunt</a>
         <a className='me' href='https://www.linkedin.com/in/mohamed-sadiqcom/' target='_blink'>Linkedin</a>
-        <p>@2023</p>
+        <p>@2023 Building On Imagination</p>
        </footer>
       </main>
     </>
