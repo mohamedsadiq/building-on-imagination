@@ -32,7 +32,7 @@ export default function Home() {
           <p> Welcome to Building On Imagination, a project dedicated to the exhilarating process of transforming my ideas into reality.</p>
           <div className='callToAction'>
             <a className='sub' href='https://boimagination.substack.com/subscribe' target='_blink'>Subscribe to the newsletter</a>
-            <a className='read' href='https://www.mohamedsadiq.me/blog/building-on-imagination' target='_blink'>Read more about it </a>
+            <a className='read' href='https://www.mohamedsadiq.me/blog/building-on-imagination' target='_blink'>What's BOI? </a>
           </div>
       </header>
       <div className='project_card'>

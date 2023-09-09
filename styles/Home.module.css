@@ -366,3 +366,10 @@ color: #ababab;
   padding: 15px;
 }
 }
+
+@media (min-width: 455px) {
+  .main {
+    padding: 15px;
+  }
+
+}

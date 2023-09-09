@@ -394,8 +394,11 @@ footer a:hover{
 }
 
 
-@media (max-width: 454px) {
 
+@media (max-width: 454px) {
+  header img {
+    width: 87%;
+}
   .container {
     max-width: 521px;
 }
@@ -411,4 +414,24 @@ footer a:hover{
 .read{
   margin-top: 10px;
 }
+}
+
+
+
+@media (min-width: 375px) {
+  header p {
+  
+    font-size: 1rem;
+  
+}
+  .callToAction a{
+    display: inline;
+  }
+
+  .sub{
+    padding-left: 13px;
+    padding-right: 12px;
+    margin: 0;
+    margin-right: 15px;
+  }
 }
