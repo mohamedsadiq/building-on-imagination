@@ -356,3 +356,13 @@ color: #ababab;
   
 }
 
+
+
+
+
+@media (max-width: 454px) {
+
+.main {
+  padding: 15px;
+}
+}

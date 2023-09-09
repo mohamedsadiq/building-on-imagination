@@ -4,14 +4,19 @@ import { Inter } from 'next/font/google'
 import styles from "../styles/Home.module.css"
 import Form from "../pages/components/form.js"
 const inter = Inter({ subsets: ['latin'] })
-import daofm from "../public/dfm.png"
+
+import daofm from "../public/Group 26.svg"
 import daospot from "../public/daospot.svg"
+import title from "../public/title.svg"
+import reward from "../public/icons8-laurel-wreath-64 copy 2.png"
+// import boiLogo from ""
+import personal from "../public/Zp6-EvJr_400x400 10.45.11 AM.jpg"
 
 export default function Home() {
-  const testing = () => {
-    console.log('API Key:', process.env.NEXT_PUBLIC_GOOGLE_API_KEY);
+  // const testing = () => {
+  //   console.log('API Key:', process.env.NEXT_PUBLIC_GOOGLE_API_KEY);
 
-  }
+  // }
   return (
     <>
       <Head>
@@ -21,144 +26,62 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.description}><div>
-        
+       <div className='container'>
+      <header>
+        <Image  src={title} alt="title" />
+          <p> Welcome to Building On Imagination, a project dedicated to the exhilarating process of transforming my ideas into reality.</p>
+          <div className='callToAction'>
+            <a className='sub' href='https://boimagination.substack.com/subscribe' target='_blink'>Subscribe to the newsletter</a>
+            <a className='read' href='https://www.mohamedsadiq.me/blog/building-on-imagination' target='_blink'>Read more about it </a>
           </div>
-        </div>
-
-        <div className={styles.center}>
-        <div className={ `${styles.thirteen} ${"project_border project_hight"}`}>
-          <div className='projects'>
-            
-            <div className="project">
-              <div className="project__image">
-                <Image 
-                src={daospot}
-                 alt="dao fm" 
-                 className='daospot_logo'
-                 width={"72"}
-                 objectFit="cover"
-                 quality={100}
-                /> 
-              </div>
-              <div className="project__info">
-                <div className='top_product '>
-                
-                </div>
-                <h2 className={inter.className}>DAOs Spot</h2>
-                <p className={inter.className}>A place For DAOs, Search, explore
-and Learn about DAOs</p>
-                <div className="project__links">
-                 <a href='https://www.daosspot.xyz/'>See the project</a>
-                </div>
-              </div>
-             
+      </header>
+      <div className='project_card'>
+        <a href='https://www.daosspot.xyz/' target='_blink'>
+        <div className='card'>
+          <div className='top'>
+            <div className='logo '>
+              <Image src={daospot} alt="project's logo"/>
+            </div>
+            <div className='reward'>
+              <Image src={reward} alt="reward's image"/>
+              <span>4th product on PH</span>
+              <div className='color_reward'></div>
             </div>
           </div>
-          </div>
-          <div className={`${styles.thirteen} ${"project_border project_hight"}`}>
-          <div className='projects'>
-            
-            <div className="project">
-              <div className="project__image">
-                <Image 
-                src={daofm}
-                 alt="dao fm" 
-                 layout="fill"
-                 className='removeFilter'
-                 objectFit="cover"
-                 quality={100}
-                /> 
-              </div>
-              <div className="project__info">
-                <div className='top_product '>
-                  <span>🏆 Top Product on product hunt</span>
-                </div>
-                <h2 className={inter.className}>Developer DAO FM</h2>
-                <p className={inter.className}>A place where you listen to music while building cool stuff.</p>
-                <div className="project__links">
-                 <a href='https://www.developerdaofm.com/'>See the project</a>
-                </div>
-              </div>
-             
+          <p>A dedicated platform for DAOs: Search, explore, and learn about the world of the (DAOs) and their impact on the future of governance, finance, and innovation.</p>
+          <a className='sub_card' href='https://www.daosspot.xyz/' target='_blink'>See the project</a>
+        </div>
+        </a>
+        <a href='https://www.developerdaofm.com/' target='_blink'>
+        <div className='card'>
+          <div className='top'>
+            <div className='logo fmlogo'>
+              <Image src={daofm} alt="project's logo"/>
+            </div>
+            <div className='reward'>
+              <Image src={reward} alt="reward's image"/>
+              <span>Top Product on PH</span>
+              <div className='color_reward'></div>
             </div>
           </div>
-          </div>
-          <div className={`${styles.thirteen} ${"project_border "}`}>
-            
-           <div className='inner_card inner_card_what'>
-           
-              <h2 className={inter.className}>What is Building On Imagination?</h2>
-                <p className={inter.className}>Learn more about the project and idea behind it.</p>
-                <a target="_blink" href='https://www.mohamedsadiq.me/blog/building-on-imagination' className={inter.className}>Read more</a>
-           </div>
-          </div>
-          <div className={ `${styles.thirteen} ${styles.thirteen_form}`}>
-          <div className='inner_card'>
-          <Image
-              src="/boi.svg"
-              alt="13"
-              width={56}
-              height={31}
-            className="logo"
-            /> 
-            <span>Join My Newsletter</span>
-              <h3 className={inter.className}>Building On Imagination.</h3>
-                <p className={inter.className}>Exploring and transforming ideas into reality.</p>
-                <div>
-               <Form />
-                </div>
-           </div>
-          </div>
-        </div>
-
-        <div className={`${styles.grid} ${styles.links}`}>
-          <a
-            href="https://mohamedsadiq.me"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Site 
-            </h2>
+          <p>A vibrant space where you can immerse yourself in music while crafting and innovating, cultivating an inspiring atmosphere for creative expression and project development.</p>
+          <a className='sub_card' href='https://www.developerdaofm.com/' target='_blink'>See the project</a>
           
-          </a>
-
-          <a
-            href="https://twitter.com/sadiq_moo"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Twitter
-            </h2>
-          
-          </a>
-
-          <a
-            href="https://github.com/mohamedsadiq"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>Github</h2>
-           
-          </a>
-
-          <a
-            href="https://boimagination.substack.com/p/building-on-imagination"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-            Blog 
-            </h2>
-           
-          </a>
         </div>
+        </a>
+      </div>
+       </div>
+       <footer>
+        <div className='personal'>
+          <Image src={personal} alt=""/>
+        </div>
+        <a className='me' href='https://twitter.com/sadiq_moo' target='_blink'>X (Twitter)</a>
+        <a className='me' href='https://www.mohamedsadiq.me' target='_blink'>Website</a>
+        <a className='me' href='https://github.com/mohamedsadiq' target='_blink'>Github</a>
+        <a className='me' href='https://www.producthunt.com/@m_bronz0' target='_blink'>Product Hunt</a>
+        <a className='me' href='https://www.linkedin.com/in/mohamed-sadiqcom/' target='_blink'>Linkedin</a>
+        <p>@2023</p>
+       </footer>
       </main>
     </>
   )
