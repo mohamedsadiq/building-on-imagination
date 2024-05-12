@@ -76,7 +76,7 @@ export default function Home() {
           <Image src={personal} alt=""/>
         </div> */}
         <a className='me' href='https://twitter.com/sadiq_moo' target='_blink'>X (Twitter)</a>
-        <a className='me' href='https://www.mosadiq.me' target='_blink'>Website</a>
+        <a className='me' href='https://www.mosadiq.com' target='_blink'>Website</a>
         <a className='me' href='https://github.com/mohamedsadiq' target='_blink'>Github</a>
         <a className='me' href='https://www.producthunt.com/@m_bronz0' target='_blink'>Product Hunt</a>
         <a className='me' href='https://www.linkedin.com/in/mohamed-sadiqcom/' target='_blink'>Linkedin</a>
