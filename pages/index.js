@@ -72,15 +72,15 @@ export default function Home() {
       </div>
        </div>
        <footer>
-        <div className='personal'>
+        {/* <div className='personal'>
           <Image src={personal} alt=""/>
-        </div>
+        </div> */}
         <a className='me' href='https://twitter.com/sadiq_moo' target='_blink'>X (Twitter)</a>
-        <a className='me' href='https://www.mohamedsadiq.me' target='_blink'>Website</a>
+        <a className='me' href='https://www.mosadiq.me' target='_blink'>Website</a>
         <a className='me' href='https://github.com/mohamedsadiq' target='_blink'>Github</a>
         <a className='me' href='https://www.producthunt.com/@m_bronz0' target='_blink'>Product Hunt</a>
         <a className='me' href='https://www.linkedin.com/in/mohamed-sadiqcom/' target='_blink'>Linkedin</a>
-        <p>@2023 Building On Imagination</p>
+        <p>@2024 Building On Imagination</p>
        </footer>
       </main>
     </>
