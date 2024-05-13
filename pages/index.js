@@ -65,7 +65,7 @@ export default function Home() {
             </div>
           </div>
           <p>A vibrant space where you can immerse yourself in music while crafting and innovating, cultivating an inspiring atmosphere for creative expression and project development.</p>
-          <a className='sub_card' href='https://www.developerdaofm.com/' target='_blink'>See the project</a>
+          <a className='sub_card' href='https://www.developerdaofm.xyz/' target='_blink'>See the project</a>
           
         </div>
         </a>
