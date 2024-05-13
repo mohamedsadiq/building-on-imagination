@@ -36,7 +36,7 @@ export default function Home() {
           </div>
       </header>
       <div className='project_card'>
-        <a href='https://www.daosspot.xyz/' target='_blink'>
+        <a href='https://www.daospot.xyz/' target='_blink'>
         <div className='card'>
           <div className='top'>
             <div className='logo '>
@@ -49,10 +49,10 @@ export default function Home() {
             </div>
           </div>
           <p>A dedicated platform for DAOs: Search, explore, and learn about the world of the (DAOs) and their impact on the future of governance, finance, and innovation.</p>
-          <a className='sub_card' href='https://www.daosspot.xyz/' target='_blink'>See the project</a>
+          <a className='sub_card' href='https://www.daospot.xyz/' target='_blink'>See the project</a>
         </div>
         </a>
-        <a href='https://www.developerdaofm.com/' target='_blink'>
+        <a href='https://www.developerdaofm.xyz/' target='_blink'>
         <div className='card'>
           <div className='top'>
             <div className='logo fmlogo'>
